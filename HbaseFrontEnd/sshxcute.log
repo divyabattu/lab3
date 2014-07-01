@@ -1,0 +1,141 @@
+
+=============== [2014/06/22 07:31:45, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[07:31:45] INFO:    SSHExec initializing ...
+[07:31:45] INFO:    Session initialized and associated with user credential cloudera
+[07:31:45] INFO:    SSHExec initialized successfully
+[07:31:45] INFO:    SSHExec trying to connect cloudera@134.193.136.127
+[07:31:47] INFO:    SSH connection established
+[07:31:47] INFO:    Ready to transfer local file 'E://sensor.txt' to server directory '/home/cloudera/'
+[07:31:48] INFO:    Connection channel established succesfully
+[07:31:48] INFO:    Start to upload
+[07:31:49] INFO:    Upload success
+[07:31:49] INFO:    channel disconnect
+[07:31:49] INFO:    SSH connection shutdown
+
+=============== [2014/06/22 07:32:42, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[07:32:42] INFO:    SSHExec initializing ...
+[07:32:42] INFO:    Session initialized and associated with user credential cloudera
+[07:32:42] INFO:    SSHExec initialized successfully
+[07:32:42] INFO:    SSHExec trying to connect cloudera@134.193.136.127
+[07:32:43] INFO:    SSH connection established
+[07:32:43] INFO:    Ready to transfer local file 'E://sensor2.txt' to server directory '/home/cloudera/'
+[07:32:43] INFO:    Connection channel established succesfully
+[07:32:43] INFO:    Start to upload
+[07:32:43] INFO:    Upload success
+[07:32:43] INFO:    channel disconnect
+[07:32:43] INFO:    SSH connection shutdown
+
+=============== [2014/06/29 22:52:52, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[22:52:52] INFO:    SSHExec initializing ...
+[22:52:52] INFO:    Session initialized and associated with user credential group
+[22:52:52] INFO:    SSHExec initialized successfully
+[22:52:52] INFO:    SSHExec trying to connect group@134.193.136.127
+[22:53:04] ERROR:   Connect fails with the following exception: com.jcraft.jsch.JSchException: Auth fail
+[22:53:04] INFO:    Ready to transfer local file 'E://sensor2.txt' to server directory '/home/cloudera/'
+[22:53:04] INFO:    SSH connection shutdown
+
+=============== [2014/06/29 22:54:37, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[22:54:37] INFO:    SSHExec initializing ...
+[22:54:37] INFO:    Session initialized and associated with user credential group9
+[22:54:37] INFO:    SSHExec initialized successfully
+[22:54:37] INFO:    SSHExec trying to connect group9@134.193.136.147
+[22:54:37] INFO:    SSH connection established
+[22:54:37] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/cloudera/'
+[22:54:37] INFO:    Connection channel established succesfully
+[22:54:37] INFO:    Start to upload
+[22:54:37] INFO:    D://sensordiv.txtcheck fails
+[22:54:37] INFO:    SSH connection shutdown
+
+=============== [2014/06/29 22:55:48, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[22:55:48] INFO:    SSHExec initializing ...
+[22:55:48] INFO:    Session initialized and associated with user credential group9
+[22:55:48] INFO:    SSHExec initialized successfully
+[22:55:48] INFO:    SSHExec trying to connect group9@134.193.136.147
+[22:55:49] INFO:    SSH connection established
+[22:55:49] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[22:55:49] INFO:    Connection channel established succesfully
+[22:55:49] INFO:    Start to upload
+[22:55:49] INFO:    Upload success
+[22:55:49] INFO:    channel disconnect
+[22:55:49] INFO:    SSH connection shutdown
+
+=============== [2014/07/01 09:49:17, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[09:49:17] INFO:    SSHExec initializing ...
+[09:49:17] INFO:    Session initialized and associated with user credential group9
+[09:49:17] INFO:    SSHExec initialized successfully
+[09:49:17] INFO:    SSHExec trying to connect group9@134.193.136.147
+[09:49:39] ERROR:   Connect fails with the following exception: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+[09:49:39] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[09:49:39] INFO:    SSH connection shutdown
+
+=============== [2014/07/01 09:50:48, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[09:50:48] INFO:    SSHExec initializing ...
+[09:50:48] INFO:    Session initialized and associated with user credential group9
+[09:50:48] INFO:    SSHExec initialized successfully
+[09:50:48] INFO:    SSHExec trying to connect group9@134.193.136.147
+[09:51:09] ERROR:   Connect fails with the following exception: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection timed out: connect
+[09:51:09] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[09:51:09] INFO:    SSH connection shutdown
+
+=============== [2014/07/01 09:51:31, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[09:51:31] INFO:    SSHExec initializing ...
+[09:51:31] INFO:    Session initialized and associated with user credential group9
+[09:51:31] INFO:    SSHExec initialized successfully
+[09:51:31] INFO:    SSHExec trying to connect group9@134.193.136.147
+[09:51:34] INFO:    SSH connection established
+[09:51:34] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[09:51:34] INFO:    Connection channel established succesfully
+[09:51:34] INFO:    Start to upload
+[09:51:34] INFO:    Upload success
+[09:51:34] INFO:    channel disconnect
+[09:51:34] INFO:    SSH connection shutdown
+
+=============== [2014/07/01 10:05:26, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:05:26] INFO:    SSHExec initializing ...
+[10:05:26] INFO:    Session initialized and associated with user credential group9
+[10:05:26] INFO:    SSHExec initialized successfully
+[10:05:26] INFO:    SSHExec trying to connect group9@134.193.136.147
+[10:05:27] INFO:    SSH connection established
+[10:05:27] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[10:05:28] INFO:    Connection channel established succesfully
+[10:05:28] INFO:    Start to upload
+[10:05:28] INFO:    Upload success
+[10:05:28] INFO:    channel disconnect
+[10:05:28] INFO:    SSH connection shutdown
+
+=============== [2014/07/01 10:51:12, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:51:12] INFO:    SSHExec initializing ...
+[10:51:12] INFO:    Session initialized and associated with user credential group9
+[10:51:12] INFO:    SSHExec initialized successfully
+[10:51:12] INFO:    SSHExec trying to connect group9@134.193.136.147
+[10:51:13] INFO:    SSH connection established
+[10:51:13] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[10:51:13] INFO:    Connection channel established succesfully
+[10:51:13] INFO:    Start to upload
+[10:51:13] INFO:    Upload success
+[10:51:13] INFO:    channel disconnect
+[10:51:13] INFO:    SSH connection shutdown
+
+=============== [2014/07/01 11:26:28, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:26:28] INFO:    SSHExec initializing ...
+[11:26:28] INFO:    Session initialized and associated with user credential group9
+[11:26:28] INFO:    SSHExec initialized successfully
+[11:26:28] INFO:    SSHExec trying to connect group9@134.193.136.147
+[11:26:30] INFO:    SSH connection established
+[11:26:30] INFO:    Ready to transfer local file 'D://sensordiv.txt' to server directory '/home/group9/'
+[11:26:30] INFO:    Connection channel established succesfully
+[11:26:30] INFO:    Start to upload
+[11:26:30] INFO:    Upload success
+[11:26:30] INFO:    channel disconnect
+[11:26:30] INFO:    SSH connection shutdown
